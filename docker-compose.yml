@@ -1,0 +1,13 @@
+services:
+  app:
+    image: palworld-wine
+    name: palworld-wine
+    ports:
+      - 8211:8211/udp # Required UDP game Port
+      - 25575:25575 # Optional RDP port
+      - 27015:27015 # Optional Query port
+    volumes:
+      - /mnt/user/app:/app # Where Steamcmd and Palworld is going to live
+      - /mnt/user/app/backup:/backup # Palworld Backup Locations
+    restart: unless-stopped
+
