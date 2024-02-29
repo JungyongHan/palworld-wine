@@ -1,0 +1,3 @@
+source /helper.sh
+shutdown
+
