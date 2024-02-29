@@ -1,11 +1,11 @@
-This project based fork at https://github.com/ripps818/palworld-wine I merged my favorite scripts created by [jammsen](https://github.com/jammsen/docker-palworld-dedicated-server) into that project.  It will probably make your server setup easier and simpler.
+This project based fork at https://github.com/ripps818/palworld-wine I merged my favorite scripts created by [jammsen](https://github.com/jammsen/docker-palworld-dedicated-server) into that project.It will probably make your server setup easier and simpler.
 
 # Requirements
 Everyone knows you need a Linux computer. Also, please have basic knowledge of getting Docker working and preferably using docker compose.
 
 # Getting started
 1. Copy ".env.bak" file to ".env"
-2. Customize .env file (Please be sure to specify admin password)
+2. Customize .env file (Please be sure to specify admin password) follow [ENV](#ENV)
 3. Edit docker-compose.yml if you want
 4. Build Docker image `docker-compose build`
 5. Run Docker image `docker-compose up -d`
